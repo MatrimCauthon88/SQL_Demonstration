@@ -23,4 +23,26 @@ Logical ERD
 
 
 
-The final kind of ERD model is called a Physical model.
+The final kind of ERD model is called a Physical model. A physical model takes it a step further by definig the data type for each column and stating the type of relationship thet exists between the table when identifying foreign keys when necessary.
+
+Physical ERD
+
+![Physical ERD Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Physical_ERD.PNG)
+
+
+
+Now that our database has a physical model, which we used our data files to create, we can export this physical ERD to PostgresSQL.
+
+![Exporting to PostgreSQL Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Exporting_to_PostgreSQL.PNG)
+
+
+
+Once we have export to PostgreSQL a file will download that we can open in a program such as VS Code. This will look somethin like this:
+
+[VS Code Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Exported_ERD_SQL_Code.PNG)
+
+
+
+We can use a the find and replace feature in VS code to remove all of the double quotation marks in the file and then copy and past the code into pgAdmin allowing us to execute the code.
+
+[pgADMIN Table Creation Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Created_Tables_in_pgAdmin.PNG)
