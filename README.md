@@ -12,3 +12,15 @@ We used https://app.quickdatabasediagrams.com/#/ to create our Entity Relationsh
 Conceptual ERD
 
 ![Conceptual ERD Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Conceptual_ERD.PNG)
+
+
+
+The next kind of ERD model is called a logical model. A logical model is more complex, it contains everying the conceptual model has, but also includes tables name, the definition of primary keys, and defines foreign keys in tables if they have one.
+
+Logical ERD
+
+![Logical ERD Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Logical_ERD.PNG)
+
+
+
+The final kind of ERD model is called a Physical model.
