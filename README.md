@@ -58,3 +58,33 @@ Now that the tables have been successfully created, we need to refresh our datab
 We can run the following coed, one line at a time by highlighting each line and clicking run, to ensure that our CSV files uploaded correctly.
 
 ![Checking Uploads Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Confirm_Import_of_CSV_Files.PNG)
+
+Now that our database has been created and all CSV files have been uploaded we can move on to our queries.
+
+
+
+## Queries
+
+Since this demonstration is using credit card transactions, we will be demonstrating how SQL, as well as Python, can be used to spot fradulant charges. The queries we will be doing are grouping all transactions by card holder, looking for the 100 highest transactions between the hours of 7 and 9 a. m., counting the total number of micro transactions, that is transactions that are less than $2.00, displaying all transactions that micro transactions, and looking at the top 5 merchants that have the most micro transactions. We will also be creating views of our queries.
+
+The reason we are looking at micro transactions is because fraudsters will "hack" a credit card by making several small payments, which may go unoticed or be ignored by card holders.
+
+### Query 1-Grouping Transactions by Card Holder
+
+![Transactions by Card Holder Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Isolate_by_Cardholder.PNG)
+
+### Query 2-100 Highest Morning Transactions
+
+![Highest Morning Transactions Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_100_Highest_Between_7_%26_9.PNG)
+
+### Query 3-Count of Micro Transactions
+
+![Micro Transactions Count](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Count_Transactions_Under_%242.PNG)
+
+### Query 4-Listing All Micro Transactions
+
+![List of Micro Transactions](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Looking_For_Evidence_of_Fraud.PNG)
+
+### Query 5-Top 5 Merchants with Micro Transactions
+
+![Top 5 Merchants Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Top_5_Merchants_Hacked.PNG)
