@@ -88,3 +88,13 @@ The reason we are looking at micro transactions is because fraudsters will "hack
 ### Query 5-Top 5 Merchants with Micro Transactions
 
 ![Top 5 Merchants Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Top_5_Merchants_Hacked.PNG)
+
+
+
+Now that are querries have given us the results we are looking for we can create views of them in pgAdmin. Creating a view allows us to run the query again without having to type out all the code to execute. This is essentially saving a query to be run at another time should we choose to do so.
+
+![Creating Views Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Creating_Views_in_pgAdmin.PNG)
+
+
+
+## SQL and Python
