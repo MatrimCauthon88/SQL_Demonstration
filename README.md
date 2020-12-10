@@ -53,3 +53,12 @@ Once we have export to PostgreSQL a file will download that we can open in a pro
 We can use a the find and replace feature in VS code to remove all of the double quotation marks in the file and then copy and past the code into pgAdmin allowing us to execute the code.
 
 [pgADMIN Table Creation Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Created_Tables_in_pgAdmin.PNG)
+
+
+
+Now that the tables have been successfully created, we need to refresh our database so that they are displayed under the Schema section in pgAdmin. We can right click on a table and select the Import/Export option to now upload our CSV files to our database.
+
+[Importing CSV Files Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Importing_CSV_Files.PNG)
+
+
+
