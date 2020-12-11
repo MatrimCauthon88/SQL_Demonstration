@@ -117,7 +117,7 @@ Listing all the micro transactions allows us to have all the transactions that b
 
 Looking at the top 5 merchants with micro transactions we can keep an eye on any future transactions from these merchants to potentially spot fraudulent activity.
 
-Now that are querries have given us the results we are looking for we can create views of them in pgAdmin. Creating a view allows us to run the query again without having to type out all the code to execute. This is essentially saving a query to be run at another time should we choose to do so.
+Now that are queries have given us the results we are looking for we can create views of them in pgAdmin. Creating a view allows us to run the query again without having to type out all the code to execute. This is essentially saving a query to be run at another time should we choose to do so.
 
 ![Creating Views Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Creating_Views_in_pgAdmin.PNG)
 
@@ -191,4 +191,4 @@ Based on this box plot we can see that there are some outliers during every mont
 
 
 
-In conclusion, SQL can be used to create databases, tables, querries, and views. In this particular demonstration our goal was looking for fraudulent credit card transactions to determine if any credit card had been hacked. We can also take it a step further and use SQL in conjunction with Python coding language to connect to SQL databases, create querries, and create visuals to help with analysis and drawing conclusions. This makes SQL and Python really powerful tools when it comes to databases.
+In conclusion, SQL can be used to create databases, tables, queries, and views. In this particular demonstration our goal was looking for fraudulent credit card transactions to determine if any credit card had been hacked. We can also take it a step further and use SQL in conjunction with Python coding language to connect to SQL databases, create queries, and create visuals to help with analysis and drawing conclusions. This makes SQL and Python really powerful tools when it comes to databases.
