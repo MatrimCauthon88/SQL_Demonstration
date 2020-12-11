@@ -73,23 +73,49 @@ The reason we are looking at micro transactions is because fraudsters will "hack
 
 ![Transactions by Card Holder Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Isolate_by_Cardholder.PNG)
 
+
+
+Group the transactions by Card Holder allows us to keep a record of all transactions that have happened in case there is a dispute or if we wanted to explore any charge disputes in case of fraud.
+
+
+
 ### Query 2-100 Highest Morning Transactions
 
 ![Highest Morning Transactions Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_100_Highest_Between_7_%26_9.PNG)
+
+
+
+Looking at the transactions from morning time allows to llok for some possible suspucious activity. The top 12 results from this query are for $100 or more with the top reslut being $1,894. In contrast result 13 is $23.13. These top 12 results, even though they are not micro transactions could be a sign of fraud.
+
+
 
 ### Query 3-Count of Micro Transactions
 
 ![Micro Transactions Count](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Count_Transactions_Under_%242.PNG)
 
+
+
+By counting micro transactions, we can get an idea of how many transactions might be from a hacked credit card.
+
+
+
 ### Query 4-Listing All Micro Transactions
 
 ![List of Micro Transactions](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Looking_For_Evidence_of_Fraud.PNG)
+
+
+
+Listing all the micro transactions allows us to have all the transactions that be from hacked crdit cards with the time and date of the transaction, as well as the amount and card number. This would make it easier to investigate possible fraudulent activity.
+
+
 
 ### Query 5-Top 5 Merchants with Micro Transactions
 
 ![Top 5 Merchants Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Top_5_Merchants_Hacked.PNG)
 
 
+
+Looking at the top 5 merchants with micro transactions we can keep an eye on any future transactions from these merchants to potentially spot fraudulent activity.
 
 Now that are querries have given us the results we are looking for we can create views of them in pgAdmin. Creating a view allows us to run the query again without having to type out all the code to execute. This is essentially saving a query to be run at another time should we choose to do so.
 
@@ -123,7 +149,7 @@ Next we create the plot graph for card holder 18 and then combine the two plots 
 
 
 
-Now we are going to create another query for a different question that we will discuss later. This query will being looking a all the transactions for card holder 25 for the months January thru June. It will only have the columns for the month, the day of that month, andthe amount, all which we use the transaction table to create. We also convert the months from number format to word format.
+Now we are going to create another query for a different question that we will discuss later. This query will being looking a all the transactions for card holder 25 for the months January thru June. It will only have the columns for the month, the day of that month, and the amount, all which we use the transaction table to create. We also convert the months from number format to word format.
 
 ![Card Holder 25 Query Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Code_for_Card_Holder_25.PNG)
 
@@ -162,3 +188,7 @@ With card holder 25, we are again looking for signs of Fraud. Here is the box pl
 
 
 Based on this box plot we can see that there are some outliers during every month, with the exception of February. This again could be an indication of fraudulent activity on the card and further investigation would be need to determine if it is indeed fraud.
+
+
+
+In conclusion, SQL can be used to create databases, tables, querries, and views. In this particular demonstration our goal was looking for fraudulent credit card transactions to determine if any credit card had been hacked. We can also take it a step further and use SQL in conjunction with Python coding language to connect to SQL databases, create querries, and create visuals to help with analysis and drawing conclusions. This makes SQL and Python really powerful tools when it comes to databases.
