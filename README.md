@@ -98,3 +98,57 @@ Now that are querries have given us the results we are looking for we can create
 
 
 ## SQL and Python
+
+We can use Python coding language inconjunction with PostgreSQL to conduct queries and create visuals in order to conduct analysis and draw conclusions, which we will discuss later.
+
+In order to use PostgreSQL with Python, first need to import some libraries and establish a connection with PostgreSQL. For this demonstration we are using Jupyter Notebook.
+
+![Library Import Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Connecting_to_PostgresSQL.PNG)
+
+
+
+Here we import pandas, plotly express, hvplot, and the one that allows us to coonect to PostgreSQL, sqlalchemy. The next thing we need to do is to create a query in python. 
+
+![Query in Python Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_and_Plot_Code.PNG)
+
+
+
+Here we create a query for the card holder id's of 2 and 18. We look at the card holder id column from the card holder table, and the date and amount column, both from the transaction table. We also join the transaction, credit card, and card holder tables. Lastly we order this by hour. We also create a plot graph for card holder 2.
+
+Next we create the plot graph for card holder 18 and then combine the two plots together.
+
+![Card Holder 18 Plot](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Plot_Code_for_Card_Holder_18.PNG)
+
+![Combing the Two Plots Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Combine_Plot_Code.PNG)
+
+
+
+Now we are going to create another query for a different question that we will discuss later. This query will being looking a all the transactions for card holder 25 for the months January thru June. It will only have the columns for the month, the day of that month, andthe amount, all which we use the transaction table to create. We also convert the months from number format to word format.
+
+![Card Holder 25 Query Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Query_Code_for_Card_Holder_25.PNG)
+
+
+
+Lastly we create a box plot graph using plottly express for analysis that we will discuss later.
+
+![Box Plot Code Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Code_for_Box_Plot.PNG)
+
+
+
+## Analysis and Conclusion
+
+
+
+![Card Holder 2 Plot Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Card_Holder_2_Plot.PNG)
+
+
+
+![Card Holder 18 Plot Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Card_Holder_18_Plot.PNG)
+
+
+
+![Combined Plot Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Combined_Plot.PNG)
+
+
+
+![Box Plot Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Box_Plot.PNG)
