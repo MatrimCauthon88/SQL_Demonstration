@@ -137,7 +137,7 @@ Lastly we create a box plot graph using plottly express for analysis that we wil
 
 ## Analysis and Conclusion
 
-
+One thing that we want to examine with card holder 2 and card holder 18 is fradualent activity. We can use the graphs we created erlier to look at the two and see if their is any fraudulant activity.
 
 ![Card Holder 2 Plot Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Card_Holder_2_Plot.PNG)
 
@@ -151,4 +151,14 @@ Lastly we create a box plot graph using plottly express for analysis that we wil
 
 
 
+Based on this combined image of the two graphs, we see that card holder 18 has several spikes in their spending compared to card holder two. These spikes could be a sign of fraud and would merit some further investigating into to determine if they are indeed fraudulant.
+
+
+
+With card holder 25, we are again looking for signs of Fraud. Here is the box plot we created for card holder 25.
+
 ![Box Plot Image](https://github.com/MatrimCauthon88/SQL_Demonstration/blob/main/Images/Box_Plot.PNG)
+
+
+
+Based on this box plot we can see that there are some outliers during every month, with the exception of February. This again could be an indication of fraudulent activity on the card and further investigation would be need to determine if it is indeed fraud.
